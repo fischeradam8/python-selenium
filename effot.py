@@ -38,7 +38,7 @@ class App():
         browser = webdriver.Chrome()
         browser.get(url)
         for x in range(self.v.get()):
-            time.sleep(2)
+            time.sleep(0.5)
             browser.refresh()
 
 
